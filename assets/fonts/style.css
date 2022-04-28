@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?lpcm35');
-  src:  url('fonts/icomoon.eot?lpcm35#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?lpcm35') format('truetype'),
-    url('fonts/icomoon.woff?lpcm35') format('woff'),
-    url('fonts/icomoon.svg?lpcm35#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?99m3bt');
+  src:  url('fonts/icomoon.eot?99m3bt#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?99m3bt') format('truetype'),
+    url('fonts/icomoon.woff?99m3bt') format('woff'),
+    url('fonts/icomoon.svg?99m3bt#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-laptop:before {
+  content: "\e902";
+}
+.icon-notebook:before {
+  content: "\e902";
+}
+.icon-linkedin:before {
+  content: "\e90e";
+}
+.icon-github:before {
+  content: "\e90f";
+}
 .icon-lion-logo:before {
   content: "\e90d";
 }
@@ -36,9 +48,6 @@
 }
 .icon-close:before {
   content: "\e901";
-}
-.icon-cosmetic:before {
-  content: "\e902";
 }
 .icon-facebook:before {
   content: "\e903";
@@ -55,15 +64,15 @@
 .icon-menu:before {
   content: "\e907";
 }
-.icon-trim:before {
-  content: "\e908";
-}
 .icon-whatsapp:before {
   content: "\e909";
 }
-.icon-woman-hair:before {
-  content: "\e90a";
-}
 .icon-youtube:before {
   content: "\e90b";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-android:before {
+  content: "\eac0";
 }
