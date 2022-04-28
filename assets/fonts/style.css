@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?heya4u');
-  src:  url('fonts/icomoon.eot?heya4u#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?heya4u') format('truetype'),
-    url('fonts/icomoon.woff?heya4u') format('woff'),
-    url('fonts/icomoon.svg?heya4u#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?lpcm35');
+  src:  url('fonts/icomoon.eot?lpcm35#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?lpcm35') format('truetype'),
+    url('fonts/icomoon.woff?lpcm35') format('woff'),
+    url('fonts/icomoon.svg?lpcm35#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-lion-logo:before {
+  content: "\e90d";
+}
 .icon-arrow-up:before {
   content: "\e90c";
 }
